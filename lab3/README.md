@@ -46,3 +46,22 @@ Single post
 <img width="1872" height="960" alt="image" src="https://github.com/user-attachments/assets/836c1fee-0f49-4499-9fa6-cfc7799a6e5d" />
 
 ## Контрольные вопросы
+Какие два файла обязательны для любой темы WordPress?  
+style.css — содержит метаданные темы и стили.  
+index.php — основной шаблон, который WordPress использует, если другие шаблоны не заданы.  
+Как подключаются общие части шаблонов (header, footer, sidebar)?  
+
+```php
+<?php
+get_header();
+get_footer();
+get_sidebar(); 
+```  
+В чем разница между index.php, single.php и page.php?  
+
+index.php	Основной шаблон. Используется, если нет других подходящих шаблонов.  
+single.php	Отображение отдельной записи блога.  
+page.php	Отображение обычных страниц WordPress.  
+
+Какова роль файла functions.php в теме?  
+Он расширяет функциональность темы, не меняя файлы ядра WordPress, позволяет добавлять функции темы, подключать стили и скрипты.  
