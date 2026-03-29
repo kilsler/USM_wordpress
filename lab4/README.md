@@ -155,6 +155,7 @@ add_shortcode('usm_notes', 'usm_notes_shortcode');
 <img width="1877" height="1009" alt="image" src="https://github.com/user-attachments/assets/c7bca572-860d-4b89-88fa-3d039188f663" />
 <img width="1872" height="1002" alt="image" src="https://github.com/user-attachments/assets/3b3508ef-1b6e-49b8-bcf6-a5c649ec2ea7" />
 <img width="1875" height="1007" alt="image" src="https://github.com/user-attachments/assets/22d72db6-9eb7-43c3-b62a-f650deccf8e8" />
+<img width="1863" height="998" alt="image" src="https://github.com/user-attachments/assets/858e9bb2-8307-4ac4-9423-0322ddab0626" />
 
 
 ## Шаг 9. Контрольные вопросы
