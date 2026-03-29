@@ -160,8 +160,16 @@ add_shortcode('usm_notes', 'usm_notes_shortcode');
 ## Шаг 9. Контрольные вопросы
 
 
-1. Care este diferența esențială dintre o taxonomie personalizată și un metacâmp? Oferă un exemplu când este mai potrivit să folosești taxonomie și când metadate.
-2. 2. De ce este necesar nonce la salvarea metacâmpurilor și ce se întâmplă dacă nu este verificat?
-3. Care sunt cei mai importanți parametri ai register_post_type() și register_taxonomy() pentru frontend și UX (numește cel puțin trei și explică de ce)?
+1. Care este diferența esențială dintre o taxonomie personalizată și un metacâmp? Oferă un exemplu când este mai potrivit să folosești taxonomie și când metadate.  
+   Таксономия — используется для классификации (группировки).Метаполе — хранит дополнительные данные о записи.  
+2. De ce este necesar nonce la salvarea metacâmpurilor și ce se întâmplă dacă nu este verificat?  
+Nonce защищает от CSRF-атак
+3. Care sunt cei mai importanți parametri ai register_post_type() și register_taxonomy() pentru frontend și UX (numește cel puțin trei și explică de ce)?  
+public- делает доступным на фронтенде и в админке  
+supports - определяет, какие поля есть (title, editor и т.д.) → влияет на UX  
+labels - удобные названия в админке → улучшает интерфейс  
+has_archive (для CPT) - создаёт страницу со списком записей  
+hierarchical (для taxonomy) - как категории (true) или теги (false) → влияет на структуру  
+
 
 
