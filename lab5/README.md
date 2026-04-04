@@ -64,7 +64,7 @@ Notifications
 <img width="1092" height="349" alt="image" src="https://github.com/user-attachments/assets/55cf201c-5b52-49a0-9f61-4305aeaadcb3" />
 
 Notifications
-
+user settings -> user lockout -> включить отправку сообщений на почту.
 
 
 ## Шаг 8. Скриншоты результата
