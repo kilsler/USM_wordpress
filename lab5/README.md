@@ -21,6 +21,27 @@ Dashboard -> Updates
 
 Потом включить автообновления: Plugins -> Auto-update, Themes
 
+## Шаг 4. Базовая защита (Hardening)
+Отключить редактор файлов:  
+```php
+define('DISALLOW_FILE_EDIT', true);
+```
+Права доступа  
+```bash
+chmod -R 755 wp-content
+find . -type f -exec chmod 644 {} \;
+```
+  
+В wp_lab2/.htaccess:  
+```
+<files wp-config.php>
+order allow,deny
+deny from all
+</files>
+```
+## Шаг 5. Установка AIOS
+
+
 ## Шаг 8. Скриншоты результата
 
 
