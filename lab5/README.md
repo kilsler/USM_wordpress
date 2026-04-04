@@ -41,6 +41,10 @@ deny from all
 ```
 ## Шаг 5. Установка AIOS
 
+Настройка Login lockout
+<img width="1873" height="1005" alt="image" src="https://github.com/user-attachments/assets/01249c0d-22af-4247-a4d9-5e6b7a200153" />
+Настройка force logout
+<img width="1" height="1" alt="image" src="https://github.com/user-attachments/assets/ab691009-8b6b-4104-86b2-0c41f83ea1eb" />
 
 ## Шаг 8. Скриншоты результата
 
