@@ -84,11 +84,14 @@ user settings -> user lockout -> включить отправку сообще�
 
 
 
-    1. De ce DISALLOW_FILE_EDIT și permisiunile corecte pe wp-config.php reduc semnificativ riscul post-exploit?
-    2. Ce setări ai ales pentru Login Lockdown/Firewall și de ce (explică echilibrul între securitate și experiența utilizatorului)?
-    3. Cu ce se deosebesc măsurile de protecție la nivel WordPress (plugin/WAF) față de cele la nivelul serverului web și al sistemului de operare?
-    4. Ce trebuie inclus neapărat într-un backup „complet” WordPress și cum verifici dacă restaurarea funcționează cu adevărat?
-
+    1. De ce DISALLOW_FILE_EDIT și permisiunile corecte pe wp-config.php reduc semnificativ riscul post-exploit?  
+     DISALLOW_FILE_EDIT и правильные права на wp-config.php предотвращают изменение критичных файлов после взлома и защищают доступ к базе данных.  
+    2. Ce setări ai ales pentru Login Lockdown/Firewall și de ce (explică echilibrul între securitate și experiența utilizatorului)?  
+    Login Lockdown и базовый Firewall ограничивают попытки входа и фильтруют запросы, обеспечивая баланс между безопасностью и удобством без частых ложных блокировок.  
+    3. Cu ce se deosebesc măsurile de protecție la nivel WordPress (plugin/WAF) față de cele la nivelul serverului web și al sistemului de operare?  
+    Защита WordPress работает на уровне приложения, а сервер и ОС блокируют угрозы раньше, на более низком уровне.  
+    4. Ce trebuie inclus neapărat într-un backup „complet” WordPress și cum verifici dacă restaurarea funcționează cu adevărat?  
+    Полный backup включает файлы и базу данных, а проверка — это восстановление сайта и проверка его полной работоспособности.
 
 
 
