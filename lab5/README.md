@@ -1,4 +1,4 @@
-
+<img width="1873" height="1003" alt="image" src="https://github.com/user-attachments/assets/0cc70834-f247-44a8-a51d-61f5871e9a5e" />
 # Лабораторная работа №5. Безопастность WordPress
 
 ## Шаг 1. Включить отладку
@@ -66,6 +66,19 @@ Notifications
 Notifications
 user settings -> user lockout -> включить отправку сообщений на почту.
 
+## Шаг 6 Проверка brute force
+После 6 неуспешных попыток аутентификации
+<img width="1861" height="1044" alt="image" src="https://github.com/user-attachments/assets/dc2bdc31-0a47-4efd-bad8-e8bd3db05488" />
+<img width="1861" height="1001" alt="image" src="https://github.com/user-attachments/assets/bde2d46d-47c4-4d03-8902-a79f1ce2a5a4" />
+
+## Шаг 7 Проверка Backup
+Скриншот постов  удаления:  
+<img width="1873" height="1003" alt="image" src="https://github.com/user-attachments/assets/32b6ad72-a117-40c0-a5ad-46abde566f22" />
+
+Скриншот восстановления постов:  
+
+<img width="1871" height="1004" alt="image" src="https://github.com/user-attachments/assets/1f7404be-08ea-47e1-bbfc-77b30ced7f43" />
+<img width="1870" height="1007" alt="image" src="https://github.com/user-attachments/assets/73e26636-e6cd-40a6-a90b-ee207091ceca" />
 
 ## Шаг 9. Контрольные вопросы
 
